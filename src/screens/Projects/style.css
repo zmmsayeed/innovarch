@@ -1,0 +1,54 @@
+.projectSection {
+    margin: 50px 0;
+}
+
+.projectMainHeading {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    margin-bottom: 25px;
+    margin-top: 5%;
+    line-height: 1;
+    text-align: center;
+}
+
+.sectionHeading {
+    width: 50px;
+    height: 2px;
+    background-color: #EEC40E;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.categories .btn {
+    font-family: 'Raleway', sans-serif;
+    color: #c9c9c9;
+    margin-bottom: 2%;
+}
+
+
+.categories .btn.active {
+    color: black;
+}
+
+.categories .btn:hover {
+    color: black;
+}
+
+.viewMoreProject {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.viewMoreProject a {
+    color: black;
+}
+
+.viewMoreProject a:hover {
+    color: #EEC40E;
+    text-decoration: none;
+}
