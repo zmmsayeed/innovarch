@@ -1,39 +1,23 @@
-.carousel-inner {
-    height:90vh;
+#firstSection{
+    min-height: 60vh;
+    background: url('../../assets/clarence.png') center center no-repeat;
+    background-size: cover;
 }
 
-.carousel-item img {
-    object-fit: cover !important;
-    height: 90vh;
-    width: 100%;
-}
-
-.carousel-caption {
-    position: sticky;
-    right: 15%;
-    bottom: 45%;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #FFF;
-    text-align: center;
+#firstSection h2 {
+    margin-top: 10%;
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #EEC40E;
 }
 
-.carousel-caption h5 {
+#firstSection p {
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Raleway', sans-serif;
-    display: inline-block;
-    background-color: rgba(0,0,0,0.8);
-    padding: 10px;
-    font-size: 3em !important;
-    font-weight: 600;
-    /* text-transform: uppercase; */
-}
-
-.carousel-caption p {
-    display: inline-block;
-    background-color: rgba(0,0,0,0.8);
-    padding: 10px;
-    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 1px;
 }

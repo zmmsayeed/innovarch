@@ -3,6 +3,7 @@ font-family: 'Roboto', sans-serif; */
 
 .navbar {
     font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid yellow;
 }
 
 .bg-light {

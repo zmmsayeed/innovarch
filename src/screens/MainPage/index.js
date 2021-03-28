@@ -6,21 +6,21 @@ import Navbar from '../../components/Navbar';
 import Feature from '../Feature';
 import Projects from '../Projects';
 import Contact from '../Contact';
-import Services from '../Services';
+import Services from '../Expertise';
 
 export default function MainPage() {
 
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(false)
-        }, 4000)
-    })
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setLoading(false)
+    //     }, 4000)
+    // })
 
-    if(loading) return <SplashScreen />
-    else return(
-    // return(
+    // if(loading) return <SplashScreen />
+    // else return(
+    return(
         <div>
             <Navbar />
             <Feature />
