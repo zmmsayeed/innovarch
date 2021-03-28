@@ -12,7 +12,7 @@ class ProjectComponent extends Component {
     super(props);
 
     this.state = {
-      show: true
+      show: false
     }
   }
 
