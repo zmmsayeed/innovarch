@@ -21,8 +21,9 @@ class Contact extends Component {
                         <div className="row">
                             <div className="col-md-4 col-12 col-sm-12 contactInfo">
                                 <i class="fas fa-phone"></i>
-                                <p className="mb-0">+91 955 721 9081</p>
-                                <p>+91 741 171 7272</p>
+                                <p className="mb-0">080 2222 6711</p>
+                                <p className="mb-0">+91 988 021 1811</p>
+                                <p>+91 988 026 6711</p>
                             </div>
                             <div className="col-md-4 col-12 col-sm-12 contactInfo">
                                 <i class="fas fa-map-marker-alt"></i>
@@ -30,8 +31,8 @@ class Contact extends Component {
                             </div>
                             <div className="col-md-4 col-12 col-sm-12 contactInfo">
                                 <i class="fas fa-envelope"></i>
-                                <p className="mb-0">info@innovarch.com</p>
-                                <p>contact@innovarch.com</p>
+                                <p className="mb-0">madhude@innovarch.in</p>
+                                <p>chandru@innovarch.in</p>
                             </div>
                         </div>
                     </div>

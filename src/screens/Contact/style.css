@@ -3,7 +3,7 @@
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Raleway', sans-serif; */
     letter-spacing: 0.5px;
-    background: url("../../assets/contact.jpg") top center no-repeat;
+    background: url("../../assets/contact.jpg") top center no-repeat fixed;
     background-size: cover;
     color: white;
 }

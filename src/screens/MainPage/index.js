@@ -6,7 +6,8 @@ import Navbar from '../../components/Navbar';
 import Feature from '../Feature';
 import Projects from '../Projects';
 import Contact from '../Contact';
-import Services from '../Expertise';
+import Expertise from '../Expertise';
+import Team from '../Team';
 
 export default function MainPage() {
 
@@ -25,7 +26,8 @@ export default function MainPage() {
             <Navbar />
             <Feature />
             <Projects />
-            <Services />
+            <Team />
+            <Expertise />
             <Contact />
 
             {/* <div style={{ height: '100vh'  }}>

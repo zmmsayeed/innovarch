@@ -54,7 +54,7 @@ export default class Typer extends Component {
 
     render() {
         return (
-            <h2>{ this.props.heading }
+            <h2>{ this.props.heading } &nbsp;
               <span>{ this.state.text }</span>
               <span id="cursor"/>
             </h2>
