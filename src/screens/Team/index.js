@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { v4 as uuid } from 'uuid';
 import team from './team';
 
 // importing components
@@ -32,7 +33,7 @@ export default class Team extends Component {
 
                     {
                         team.map(member => (
-                            <TeamCard link={member.link} image={member.image} name={member.name} role={member.role} status={member.status} />
+                            <TeamCard key={uuid()} link={member.link} image={member.image} name={member.name} role={member.role} status={member.status} />
                         ))
                     }
 

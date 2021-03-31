@@ -27,13 +27,18 @@ class Projects extends Component {
                 <h5 className="projectMainHeading">Projects</h5>
                 <div className="sectionHeading" />
 
-                <div className="text-center categories">
-                    <button value="All" className={ field === 'All' ? 'btn active' : 'btn'} onClick={this.changeField}>All Fields</button>
-                    <button value="Design" className={ field === 'Design' ? 'btn active' : 'btn'} onClick={this.changeField}>Design</button>
-                    <button value="Construction" className={ field === 'Construction' ? 'btn active' : 'btn'} onClick={this.changeField}>Construction</button>
-                    <button value="Interior" className={ field === 'Interior' ? 'btn active' : 'btn'} onClick={this.changeField}>Interior</button>
-                    <button value="Model" className={ field === 'Model' ? 'btn active' : 'btn'} onClick={this.changeField}>Model</button>
+                <div className="container text-center categories">
+                    <button value="All" className={ field === 'All' ? 'btn active' : 'btn'} onClick={this.changeField}>All</button>
+                    <button value="Institutions" className={ field === 'Institutions' ? 'btn active' : 'btn'} onClick={this.changeField}>Institutions</button>
+                    <button value="Hospitals" className={ field === 'Hospitals' ? 'btn active' : 'btn'} onClick={this.changeField}>Hospitals</button>
+                    <button value="Apartments" className={ field === 'Apartments' ? 'btn active' : 'btn'} onClick={this.changeField}>Apartments</button>
+                    <button value="Sports Facilities" className={ field === 'Sports Facilities' ? 'btn active' : 'btn'} onClick={this.changeField}>Sports Facilities</button>
+                    <button value="Hospitality" className={ field === 'Hospitality' ? 'btn active' : 'btn'} onClick={this.changeField}>Hospitality</button>
+                    <button value="Commercial Complex" className={ field === 'Commercial Complex' ? 'btn active' : 'btn'} onClick={this.changeField}>Commercial Complex</button>
+                    <button value="Industrial Buildings & Warehouses" className={ field === 'Industrial Buildings & Warehouses' ? 'btn active' : 'btn'} onClick={this.changeField}>Industrial Buildings & Warehouses</button>
+                    <button value="Interiors" className={ field === 'Interiors' ? 'btn active' : 'btn'} onClick={this.changeField}>Interiors</button>
                 </div>
+                
                 <ProjectComponent field={field} />
 
 
