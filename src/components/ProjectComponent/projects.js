@@ -162,7 +162,7 @@ const projects = {
                 superBuiltUpArea: '',
                 images: [
                     {
-                        name: 'Trial test',
+                        name: 'Contours Gym',
                         url: '/images/Sports Facilities/ContoursGm/1.jpg'
                     },
                 ]
@@ -172,16 +172,16 @@ const projects = {
     ],
     'Hospitality': [
         {
-            name: 'Random hospital',
+            name: 'Temple Tree Studios',
             details: {
-                projectPromoters: "Manipal",
+                projectPromoters: "Mr.Vikrant Jagannath",
                 status: 'Completed',
-                location: "Hubali-Dharwad, Karnataka - 580029",
-                superBuiltUpArea: '123151 SQMT',
+                location: "Alfred Street, Bangalore",
+                superBuiltUpArea: '20,000 SFT',
                 images: [
                     {
-                        name: 'Trial test',
-                        url: '/images/Institutions/IIIT-D/1.jpg'
+                        name: 'Temple Tree Studios',
+                        url: '/images/Hospitality/TempleTreeStudios/1.jpg'
                     },
                 ]
             },
@@ -190,16 +190,16 @@ const projects = {
     ],
     'Commercial Complex': [
         {
-            name: 'Random hospital',
+            name: 'Lotus Tower',
             details: {
-                projectPromoters: "Manipal",
+                projectPromoters: "Lotus Towers",
                 status: 'Completed',
-                location: "Hubali-Dharwad, Karnataka - 580029",
-                superBuiltUpArea: '123151 SQMT',
+                location: "Race Course Road, Bangalore",
+                superBuiltUpArea: '55,000 SFT',
                 images: [
                     {
-                        name: 'Trial test',
-                        url: '/images/Institutions/IIIT-D/1.jpg'
+                        name: 'Lotus Tower',
+                        url: '/images/Commercial Complex/LotusTower/1.jpg'
                     },
                 ]
             },

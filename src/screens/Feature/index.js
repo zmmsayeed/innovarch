@@ -12,10 +12,10 @@ export default class Feature  extends Component {
                     <div className="row">
                         <div className="col-md-6 col-12 mt-5 offset-md-1">
 
-                            <Typer
-                                heading="Innovarch"
-                                dataText={["Context", "Utility", "Program", "Sustainability"]} 
-                            />
+                        <Typer
+                            heading={'Innovarch'}
+                            dataText={["Context ","Utility ","Sustainability ", "Program "]} 
+                        />
 
                             {/* <h2>Innovarch</h2> */}
                             {/* <p className="mt-3">The urge to be relevant, an absence of a monotonous style, and attention to detail in design define our ‘thought parallels’ design ethos</p> */}

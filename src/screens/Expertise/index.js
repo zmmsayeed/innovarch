@@ -24,7 +24,7 @@ class Services extends Component {
                         </div>
                         <div className="col-md-3 col-12 col-sm-6 service">
                             <i class="fas fa-truck-pickup mb-3"></i>
-                            <p className="serviceHead">Construction</p>
+                            <p className="serviceHead">Something</p>
                             <p>The science to form objects, systems, and organizations.</p>
                         </div>
                         <div className="col-md-3 col-12 col-sm-6 service">

@@ -13,6 +13,12 @@
     margin-top: 15%;
 }
 
+@media only screen and (max-width: 1000px) {
+    .fam-main {
+        display: none;
+    }
+}
+
 .section-heading {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 1rem;

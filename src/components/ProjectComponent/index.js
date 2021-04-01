@@ -23,7 +23,6 @@ class ProjectComponent extends Component {
   render() {
     let { show } = this.state;
     let { field } = this.props;
-    // console.log("In the props: ", field);
 
     let allProjects =
       field === "All"
@@ -36,17 +35,18 @@ class ProjectComponent extends Component {
           return projects[categories]
         })
 
-    // console.log("All Projects: ", allProjects);
+    console.log(allProjects)
+
 
     return (
       <>
         <div className="row no-gutters">
           {
-            allProjects.length
+              field === 'All'
               ? allProjects.map((proj, index) => {
                 if(index < 6) {
                   return (
-                    <div className="col-12 col-sm-6 col-md-4 imgContainer">
+                    <div className="col-12 col-sm-6 col-md-4 imgContainer mx-auto">
                         <img src={proj[0].details.images[0].url}
                             className="img-fluid image" alt={proj[0].name}
                             style={{ height: '280px' }}
@@ -60,7 +60,25 @@ class ProjectComponent extends Component {
                   ) 
                 } else return null
               })
-              : <p className="text-center">No projects for this category</p>
+              : allProjects.map((proj, index) => {
+                return proj.map(eachProj => {
+                  if(index < 6) {
+                    return (
+                      <div className="col-12 col-sm-6 col-md-4 imgContainer mx-auto">
+                          <img src={eachProj.details.images[0].url}
+                              className="img-fluid image" alt={proj[0].name}
+                              style= {{ height: '280px' }}
+                          />
+                          <div className="middle">
+                          <h5 className="imageName">{eachProj.name}</h5>
+                          <p className="imageCategory">{proj.category}</p>
+                          <a href="#!">View Details</a>
+                          </div>
+                      </div>
+                    ) 
+                  } else return null
+                })
+              })
           }
         </div>
 
