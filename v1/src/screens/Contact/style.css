@@ -1,0 +1,42 @@
+#contactSection {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    letter-spacing: 0.5px;
+    background: url("../../assets/contact.jpg") top center no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+
+.contactMainHeading {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    margin-bottom: 25px;
+    margin-top: 5%;
+    line-height: 1;
+    text-align: center;
+}
+
+.sectionHeading {
+    width: 50px;
+    height: 2px;
+    background-color: #EEC40E;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.contactInfo i {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background: #EEC40E;
+    border-radius: 50px;
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
