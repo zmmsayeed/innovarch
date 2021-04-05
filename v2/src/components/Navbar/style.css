@@ -1,0 +1,48 @@
+.bg-dark {
+    background-color: black !important;
+    height: 100vh !important;
+}
+
+.navbar {
+    height: 100vh !important
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.navbar-nav {
+    margin-top: -50px;
+}
+
+.nav-item .nav-link {
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.15rem;
+    color: white !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #EEC40E !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #EEC40E !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-dark {
+        height: auto !important;
+    }
+    .navbar {
+        height: auto !important
+    }
+    .navbar-nav {
+        margin-top: 0px !important;
+    }
+}
+
+

@@ -1,0 +1,6 @@
+.sideSection {
+    max-height: 100vh;
+    overflow-y: scroll;
+    background: url('../../assets/clarence.png') center center no-repeat fixed;
+    background-size: cover;
+}

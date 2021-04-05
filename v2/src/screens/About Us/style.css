@@ -1,0 +1,17 @@
+.sectionHeading {
+    width: 50px;
+    height: 2px;
+    background-color: #EEC40E;
+    margin-bottom: 2%;
+}
+
+#aboutSection h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+#aboutSection p {
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+}
