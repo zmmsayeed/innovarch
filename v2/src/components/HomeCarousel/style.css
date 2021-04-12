@@ -1,0 +1,39 @@
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    /* background-color: rgba(0,0,0,0.7); */
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.carousel-item {
+    transition: transform 1s ease-in-out !important;
+}
+
+.carousel-item img {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.carousel-caption h3 {
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px lightgray; /* width and color */
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}

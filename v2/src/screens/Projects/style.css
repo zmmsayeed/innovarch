@@ -22,7 +22,7 @@
   display: block;
   width: 100%;
   filter: grayscale(1) brightness(0.5);
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .column img:hover {
@@ -101,4 +101,41 @@
     width: 95vw !important;
     margin: 20px auto;
   }
+}
+
+.input-group input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border: 1px solid black !important;
+  border-radius: 0 !important;
+  border-right: 0 !important;
+}
+
+.input-group button {
+  color: #EEC40E;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 0 !important;
+  border: 1px solid black !important;
+}
+
+.input-group button:hover {
+  background-color: #EEC40E !important;
+  color: white !important;
+}
+
+.my-dropdown-toggle::after {
+  content: none;
+}
+
+.badge {
+  color: white !important;
+  padding: 0.5em;
+}
+
+.badge:hover {
+  cursor: pointer;
+  filter: grayscale(0.5);
 }

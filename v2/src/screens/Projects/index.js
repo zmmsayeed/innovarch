@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import projects from './projects';
 
-import Modal from 'react-bootstrap/Modal'
+import Modal from 'react-bootstrap/Modal';
+import Dropdown from 'react-bootstrap/Dropdown'
 
 // importing StyleSheet
 import './style.css';
+import DropDownButton from '../../components/DropDownButton';
 
 export default class Projects extends Component {
 
@@ -65,9 +67,48 @@ export default class Projects extends Component {
 
         return (
             <div className="container-fluid">
+
+                <div className="row">
+                    <div className="col-md-5 col-sm-12 col-12">
+                        <div class="input-group mb-3 ml-1">
+                            <input type="text" class="form-control" placeholder="Search Project" />
+                            <button class="btn btn-outline-secondary">
+                                {/* <span style={{ color: 'yellow' }}> */}
+                                <i class="fas fa-search"></i>
+                                {/* </span> */}
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="col-md-7 col-sm-12 col-12 text-md-right text-center">
+                                <span class="badge bg-warning  mx-1 my-1">All Projects</span>
+                                <span class="badge bg-warning  mx-1 my-1">Apartments</span>
+                                <span class="badge bg-warning  mx-1 my-1">Commercial Complex</span>
+                                <span class="badge bg-warning  mx-1 my-1">Hospitality</span>
+                                <span class="badge bg-warning  mx-1 my-1">Hospitals</span>
+                                <span class="badge bg-warning  mx-1 my-1">Industrial Buildings & Warehouses</span>
+                                <span class="badge bg-warning  mx-1 my-1">Interiors</span>
+                                <span class="badge bg-warning  mx-1 my-1">Sports Facilities</span>
+                        {/* <Dropdown>
+                            <Dropdown.Toggle as={DropDownButton}>
+                                
+                            </Dropdown.Toggle>
+
+                            <Dropdown.Menu className="p-2">
+                                <span class="badge bg-warning  mx-2 my-1">All Projects</span>
+                                <span class="badge bg-warning  mx-2 my-1">Apartments</span>
+                                <span class="badge bg-warning  mx-2 my-1">Commercial Complex</span>
+                                <span class="badge bg-warning  mx-2 my-1">Hospitality</span>
+                                <span class="badge bg-warning  mx-2 my-1">Hospitals</span>
+                                <span class="badge bg-warning  mx-2 my-1">Industrial Buildings & Warehouses</span>
+                                <span class="badge bg-warning  mx-2 my-1">Interiors</span>
+                                <span class="badge bg-warning  mx-2 my-1">Sports Facilities</span>
+                            </Dropdown.Menu>
+                        </Dropdown> */}
+                    </div>
+                </div>
+
                 <div className="pic-row">
-
-
 
                     <div className="column">
                         {

@@ -16,3 +16,22 @@ body {
 .font-raleway {
   font-family: 'Raleway', sans-serif;
 }
+
+.btn-secondary {
+  border: 2px solid white !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.3px;
+}
+
+.btn-primary {
+  border-radius: 0 !important;
+  border: 2px solid white !important;
+  background-color: white !important;
+  color: black !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.3px;
+}

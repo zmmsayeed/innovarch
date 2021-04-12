@@ -42,17 +42,20 @@ export default class Navbar extends Component {
                             <li className={section==="About Us" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
                                 <a className="nav-link" href="#!" data-value="About Us">About Us</a>
                             </li>
+                            <li className={section==="Clients" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
+                                <a className="nav-link" href="#!" data-value="About Us">Clients</a>
+                            </li>
                             <li className={section==="Our Team" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
-                                <a className="nav-link" href="#!" data-value="Our Team">Our Team</a>
+                                <a className="nav-link" href="#!" data-value="Our Team">People</a>
                             </li>
                             <li className={section==="Contact" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
                                 <a className="nav-link" href="#!" data-value="Contact">Contact</a>
                             </li>
                             <li className="nav-item mt-4">
-                                <a className="nav-link d-inline" href="https://www.facebook.com/innovarcharchitects/">
+                                <a className="nav-link d-inline mr-md-0 mr-2" href="https://www.facebook.com/innovarcharchitects/">
                                     <i className="fab fa-facebook-f"></i>
                                 </a>
-                                <a className="nav-link d-inline" href="https://kraftivo.in/id/innovarcharchitects">
+                                <a className="nav-link d-inline ml-md-0 ml-2" href="https://kraftivo.in/id/innovarcharchitects">
                                     <i className="fab fa-kickstarter-k"></i>
                                 </a>
                             </li>

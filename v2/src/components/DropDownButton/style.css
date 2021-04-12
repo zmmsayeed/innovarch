@@ -1,0 +1,8 @@
+.filterDropDown {
+    color: black !important;
+}
+
+.filterDropDown:hover {
+    color: #EEC40E !important;
+    text-decoration: none;
+}
