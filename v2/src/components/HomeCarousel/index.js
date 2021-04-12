@@ -23,8 +23,8 @@ export default class HomeCarousel extends Component {
                                 PROJECT PROMOTERS:  IIIT, Dharwad <br />
                                 SUPER BUILTUP AREA = 123151 SQMT
                             </p>
-                            <button className="btn btn-lg btn-secondary mr-2">Contact Us</button>
-                            <button className="btn btn-lg btn-primary ml-2">View Project</button>
+                            <button className="btn btn-lg btn-secondary">Contact Us</button>
+                            <button className="btn btn-lg btn-primary">View Project</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -36,8 +36,8 @@ export default class HomeCarousel extends Component {
                         <Carousel.Caption>
                             <h3 className="font-roboto">Temple Tree Studios</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            <button className="btn btn-lg btn-secondary mr-2">Contact Us</button>
-                            <button className="btn btn-lg btn-primary ml-2">View Project</button>
+                            <button className="btn btn-lg btn-secondary">Contact Us</button>
+                            <button className="btn btn-lg btn-primary">View Project</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -50,8 +50,8 @@ export default class HomeCarousel extends Component {
                         <Carousel.Caption>
                             <h3 className="font-roboto">Contours Gym</h3>
                             <p>CLIENT: Contours; STATUS: Completed; LOCATION: Bangalore</p>
-                            <button className="btn btn-lg btn-secondary mr-2">Contact Us</button>
-                            <button className="btn btn-lg btn-primary ml-2">View Project</button>
+                            <button className="btn btn-lg btn-secondary">Contact Us</button>
+                            <button className="btn btn-lg btn-primary">View Project</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
