@@ -72,9 +72,7 @@ export default class Projects extends Component {
                         <div className="input-group mb-3 ml-1">
                             <input type="text" className="form-control" placeholder="Search Project" />
                             <button className="btn btn-outline-secondary">
-                                {/* <span style={{ color: 'yellow' }}> */}
                                 <i className="fas fa-search"></i>
-                                {/* </span> */}
                             </button>
                         </div>
                     </div>
