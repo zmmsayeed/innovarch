@@ -139,3 +139,7 @@
   cursor: pointer;
   filter: grayscale(0.5);
 }
+
+.badge.active {
+  filter: grayscale(0.5);
+}

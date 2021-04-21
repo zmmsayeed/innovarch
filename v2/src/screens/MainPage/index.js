@@ -13,35 +13,24 @@ import Home from '../Home';
 
 class MainPage extends React.Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            section: 'Home'
-        }
-    }
-
-    changeNavigation = (e) => {
-        this.setState({ section: e })
-    }
-
     render() {
-        let { section } = this.state;
+        let {page} = this.props;
+        console.log("Props to main page: ", page)
 
         return (
 
             <div className="container-fluid p-0">
                 <div className="row no-gutters">
                     <div className="col-12 col-sm-12 col-md-3">
-                        <Navbar changeNavigation={this.changeNavigation} section={this.state.section} />
+                        <Navbar section={this.props.page} />
                     </div>
-                    <div className={ section === 'Home' ? "col-12 col-sm-12 col-md-9 sideSection" : "col-12 col-sm-12 col-md-9 sideSection p-md-5 p-3" }>
+                    <div className={ page === 'Home' ? "col-12 col-sm-12 col-md-9 sideSection" : "col-12 col-sm-12 col-md-9 sideSection p-md-5 p-3" }>
                         {
-                            section === 'Projects' ? <Projects />
-                                : section === 'Home' ? <Home />
-                                : section === 'About Us' ? <AboutUs />
-                                : section === 'Our Team' ? <Team />
-                                : section === 'Contact' ? <Contact />
+                            page === 'Projects' ? <Projects />
+                                : page === 'Home' ? <Home />
+                                : page === 'About' ? <AboutUs />
+                                : page === 'People' ? <Team />
+                                : page === 'Contact' ? <Contact />
                                 : null
                         }
                     </div>

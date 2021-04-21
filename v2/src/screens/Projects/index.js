@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import projects from './projects';
 
 import Modal from 'react-bootstrap/Modal';
-import Dropdown from 'react-bootstrap/Dropdown'
 
 // importing StyleSheet
 import './style.css';
-import DropDownButton from '../../components/DropDownButton';
 
 export default class Projects extends Component {
 
@@ -15,7 +13,8 @@ export default class Projects extends Component {
 
         this.state = {
             modalShow: false,
-            project: {}
+            project: {},
+            projectCategory: 'All '
         }
     }
 
@@ -23,7 +22,7 @@ export default class Projects extends Component {
     handleClose = () => this.setState({ modalShow: false })
 
     showProject = (id) => {
-        
+
 
         let categoryShowProject = Object.keys(projects).filter(category => {
             return projects[category].filter(proj => {
@@ -35,8 +34,8 @@ export default class Projects extends Component {
             proj['category'] = categoryShowProject
             return proj.id === id
         })[0]
-            
-            // filter(proj => proj.id === id)[0];
+
+        // filter(proj => proj.id === id)[0];
         this.setState({ project: toShowProject }, () => {
             this.showModal()
         })
@@ -70,41 +69,25 @@ export default class Projects extends Component {
 
                 <div className="row">
                     <div className="col-md-5 col-sm-12 col-12">
-                        <div class="input-group mb-3 ml-1">
-                            <input type="text" class="form-control" placeholder="Search Project" />
-                            <button class="btn btn-outline-secondary">
+                        <div className="input-group mb-3 ml-1">
+                            <input type="text" className="form-control" placeholder="Search Project" />
+                            <button className="btn btn-outline-secondary">
                                 {/* <span style={{ color: 'yellow' }}> */}
-                                <i class="fas fa-search"></i>
+                                <i className="fas fa-search"></i>
                                 {/* </span> */}
                             </button>
                         </div>
                     </div>
 
                     <div className="col-md-7 col-sm-12 col-12 text-md-right text-center">
-                                <span class="badge bg-warning  mx-1 my-1">All Projects</span>
-                                <span class="badge bg-warning  mx-1 my-1">Apartments</span>
-                                <span class="badge bg-warning  mx-1 my-1">Commercial Complex</span>
-                                <span class="badge bg-warning  mx-1 my-1">Hospitality</span>
-                                <span class="badge bg-warning  mx-1 my-1">Hospitals</span>
-                                <span class="badge bg-warning  mx-1 my-1">Industrial Buildings & Warehouses</span>
-                                <span class="badge bg-warning  mx-1 my-1">Interiors</span>
-                                <span class="badge bg-warning  mx-1 my-1">Sports Facilities</span>
-                        {/* <Dropdown>
-                            <Dropdown.Toggle as={DropDownButton}>
-                                
-                            </Dropdown.Toggle>
-
-                            <Dropdown.Menu className="p-2">
-                                <span class="badge bg-warning  mx-2 my-1">All Projects</span>
-                                <span class="badge bg-warning  mx-2 my-1">Apartments</span>
-                                <span class="badge bg-warning  mx-2 my-1">Commercial Complex</span>
-                                <span class="badge bg-warning  mx-2 my-1">Hospitality</span>
-                                <span class="badge bg-warning  mx-2 my-1">Hospitals</span>
-                                <span class="badge bg-warning  mx-2 my-1">Industrial Buildings & Warehouses</span>
-                                <span class="badge bg-warning  mx-2 my-1">Interiors</span>
-                                <span class="badge bg-warning  mx-2 my-1">Sports Facilities</span>
-                            </Dropdown.Menu>
-                        </Dropdown> */}
+                        <span className="badge bg-warning active mx-1 my-1">All Projects</span>
+                        <span className="badge bg-warning  mx-1 my-1">Apartments</span>
+                        <span className="badge bg-warning  mx-1 my-1">Commercial Complex</span>
+                        <span className="badge bg-warning  mx-1 my-1">Hospitality</span>
+                        <span className="badge bg-warning  mx-1 my-1">Hospitals</span>
+                        <span className="badge bg-warning  mx-1 my-1">Industrial Buildings & Warehouses</span>
+                        <span className="badge bg-warning  mx-1 my-1">Interiors</span>
+                        <span className="badge bg-warning  mx-1 my-1">Sports Facilities</span>
                     </div>
                 </div>
 
@@ -147,7 +130,7 @@ export default class Projects extends Component {
                         <Modal.Title>{project.name}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        
+
                     </Modal.Body>
                 </Modal>
             </div>

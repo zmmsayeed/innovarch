@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom'
 
 // importing stylesheet
 import './style.css';
 
-export default class Navbar extends Component {
+class Navbar extends Component {
 
     changeSection = (e) => {
-        // console.log(e.target.getAttribute('data-value'))
-        this.props.changeNavigation(e.target.getAttribute('data-value'))
+        this.props.history.push(e.target.getAttribute('data-value'))
     }
 
     render() {
@@ -40,13 +40,13 @@ export default class Navbar extends Component {
                                 <a className="nav-link" href="#!" data-value="Projects">Projects</a>
                             </li>
                             <li className={section==="About Us" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
-                                <a className="nav-link" href="#!" data-value="About Us">About Us</a>
+                                <a className="nav-link" href="#!" data-value="About">About Us</a>
                             </li>
                             <li className={section==="Clients" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
-                                <a className="nav-link" href="#!" data-value="About Us">Clients</a>
+                                <a className="nav-link" href="#!" data-value="Clients">Clients</a>
                             </li>
                             <li className={section==="Our Team" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
-                                <a className="nav-link" href="#!" data-value="Our Team">People</a>
+                                <a className="nav-link" href="#!" data-value="People">People</a>
                             </li>
                             <li className={section==="Contact" ? "nav-item active" : "nav-item"} onClick={this.changeSection}>
                                 <a className="nav-link" href="#!" data-value="Contact">Contact</a>
@@ -66,3 +66,5 @@ export default class Navbar extends Component {
         )
     }
 }
+
+export default withRouter(Navbar)
