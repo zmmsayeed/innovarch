@@ -10,6 +10,7 @@ import AboutUs from '../About Us';
 import Team from '../Team';
 import Contact from '../Contact';
 import Home from '../Home';
+import Clients from '../Clients';
 
 class MainPage extends React.Component {
 
@@ -31,6 +32,7 @@ class MainPage extends React.Component {
                                 : page === 'About' ? <AboutUs />
                                 : page === 'People' ? <Team />
                                 : page === 'Contact' ? <Contact />
+                                : page === 'Clients' ? <Clients />
                                 : null
                         }
                     </div>
