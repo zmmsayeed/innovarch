@@ -137,9 +137,9 @@
 
 .badge:hover {
   cursor: pointer;
-  filter: grayscale(0.1);
+  filter: grayscale(0.6);
 }
 
 .badge.active {
-  filter: grayscale(0.5);
+  filter: grayscale(0.6);
 }
