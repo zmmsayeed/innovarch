@@ -21,8 +21,8 @@
 .imgContainer img {
   display: block;
   width: 100%;
-  filter: grayscale(1) brightness(0.5);
-  /* border-radius: 5px; */
+  filter: grayscale(0.5) brightness(0.5);
+  border-radius: 5px;
 }
 
 .column img:hover {
@@ -137,7 +137,7 @@
 
 .badge:hover {
   cursor: pointer;
-  filter: grayscale(0.5);
+  filter: grayscale(0.1);
 }
 
 .badge.active {

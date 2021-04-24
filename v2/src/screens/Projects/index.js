@@ -14,7 +14,7 @@ export default class Projects extends Component {
         this.state = {
             modalShow: false,
             project: {},
-            projectCategory: 'All '
+            projectCategory: 'All'
         }
     }
 
@@ -22,6 +22,8 @@ export default class Projects extends Component {
     handleClose = () => this.setState({ modalShow: false })
 
     showProject = (id) => {
+
+        console.log('Project Id: ',id)
 
 
         let categoryShowProject = Object.keys(projects).filter(category => {
@@ -35,23 +37,34 @@ export default class Projects extends Component {
             return proj.id === id
         })[0]
 
-        // filter(proj => proj.id === id)[0];
         this.setState({ project: toShowProject }, () => {
             this.showModal()
         })
     }
 
+    changeCategory = (event) => {
+        this.setState({ projectCategory: event.target.getAttribute('data-category') })
+    }
+
     render() {
 
-        let imgArray = Object.keys(projects).map(category => {
-            let obj = {};
-            projects[category].map(project => {
+        let { projectCategory } = this.state;
+        let { project } = this.state;
+        
+        let imgArray = [];
+        let allProjects = projectCategory === 'All' ? projects 
+                            : { projectCategory: projects[this.state.projectCategory] }
+
+        Object.keys(allProjects).map(category => {
+            allProjects[category].map(project => {
+                let obj = {};
                 obj['id'] = project.id;
                 obj['image'] = project.details.images[0].url;
+                
+                imgArray.push(obj)
                 return null
             })
-
-            return obj
+            return null
         })
 
         let images = [[], [], []];
@@ -61,8 +74,6 @@ export default class Projects extends Component {
             else if (index % 3 === 0) images[2].push(img)
             return null
         })
-
-        let { project } = this.state;
 
         return (
             <div className="container-fluid">
@@ -78,14 +89,14 @@ export default class Projects extends Component {
                     </div>
 
                     <div className="col-md-7 col-sm-12 col-12 text-md-right text-center">
-                        <span className="badge bg-warning active mx-1 my-1">All Projects</span>
-                        <span className="badge bg-warning  mx-1 my-1">Apartments</span>
-                        <span className="badge bg-warning  mx-1 my-1">Commercial Complex</span>
-                        <span className="badge bg-warning  mx-1 my-1">Hospitality</span>
-                        <span className="badge bg-warning  mx-1 my-1">Hospitals</span>
-                        <span className="badge bg-warning  mx-1 my-1">Industrial Buildings & Warehouses</span>
-                        <span className="badge bg-warning  mx-1 my-1">Interiors</span>
-                        <span className="badge bg-warning  mx-1 my-1">Sports Facilities</span>
+                        <span className="badge bg-warning active mx-1 my-1" data-category="All" onClick={this.changeCategory}>All Projects</span>
+                        <span className="badge bg-warning  mx-1 my-1" data-category="Apartments" onClick={this.changeCategory}>Apartments</span>
+                        <span className="badge bg-warning  mx-1 my-1" data-category="Commercial Complex" onClick={this.changeCategory}>Commercial Complex</span>
+                        <span className="badge bg-warning  mx-1 my-1" data-category="Hospitality" onClick={this.changeCategory}>Hospitality</span>
+                        <span className="badge bg-warning  mx-1 my-1" data-category="Hospitals" onClick={this.changeCategory}>Hospitals</span>
+                        <span className="badge bg-warning  mx-1 my-1" data-category="Industrial Buildings & Warehouses" onClick={this.changeCategory}>Industrial Buildings & Warehouses</span>
+                        <span className="badge bg-warning  mx-1 my-1" data-category="Interiors" onClick={this.changeCategory}>Interiors</span>
+                        <span className="badge bg-warning  mx-1 my-1" data-category="Sports Facilities" onClick={this.changeCategory}>Sports Facilities</span>
                     </div>
                 </div>
 

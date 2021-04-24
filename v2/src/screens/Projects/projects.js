@@ -108,6 +108,251 @@ const projects = {
             },
             
         },
+        {
+            id: 9,
+            name: 'Notre Dame of Holy Cross',
+            details: {
+                projectPromoters: 'Notre Dame of Holy Cross',
+                status: 'Completed',
+                location: 'Salem, Tamil Nadu',
+                superBuiltUpArea: '-',
+                images: [
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/1.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/2.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/3.jpg'
+                    },
+                    {
+                        name: 'Sports Complex / Auditorium - 3000 capacity',
+                        url: [
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud1.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud2.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud3.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud4.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud5.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud6.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud7.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud8.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud9.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud10.jpg',
+                            '/images/Institutions/NotreDameOfHolyCross/sports_aud11.jpg',
+                        ]
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/4.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/5.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/6.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/7.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/8.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/9.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/10.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/11.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/12.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/13.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/14.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/15.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/16.jpg'
+                    },
+                    {
+                        name: 'Notre Dame of Holy Cross',
+                        url: '/images/Institutions/NotreDameOfHolyCross/17.jpg'
+                    },
+                ]
+            }
+        },
+        {
+            id: 10,
+            name: 'Podar International School',
+            details: {
+                projectPromoters: 'Podar Education Trust',
+                status: 'Completed',
+                location: 'Hassan',
+                superBuiltUpArea: '-',
+                images: [
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/1.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/2.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/3.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/4.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/5.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/6.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/7.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/8.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/9.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/10.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/11.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/12.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/13.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/14.jpg'
+                    },
+                    {
+                        name: 'Podar International School',
+                        url: '/images/Institutions/PodarInternationalSchool/14.jpg'
+                    },
+                ]
+            }
+        },
+        {
+            id: 11,
+            name: 'Amritavidyalayam School',
+            details: {
+                projectPromoters: 'Bharatiya  Reserve Bank Note Mudran (P) Ltd.',
+                status: 'Completed',
+                location: 'BRBNMPL Campus, Mysore',
+                superBuiltUpArea: '-',
+                images: [
+                    {
+                        name: 'Amritavidyalayam School',
+                        url: '/images/Institutions/AmritavidyalayamSchool/1.jpg'
+                    },
+                    {
+                        name: 'Amritavidyalayam School',
+                        url: '/images/Institutions/AmritavidyalayamSchool/2.jpg'
+                    },
+                    {
+                        name: 'Amritavidyalayam School',
+                        url: '/images/Institutions/AmritavidyalayamSchool/3.jpg'
+                    },
+                    {
+                        name: 'Amritavidyalayam School',
+                        url: '/images/Institutions/AmritavidyalayamSchool/4.jpg'
+                    },
+                ]
+            }
+        },
+        {
+            id: 12,
+            name: 'BTI School, Burma',
+            details: {
+                projectPromoters: 'Competition Project',
+                status: '- ',
+                location: 'Burma',
+                superBuiltUpArea: '-',
+                images: [
+                    {
+                        name: 'BTI School, Burma',
+                        url: '/images/Institutions/BTI-school/1.jpg'                
+                    }
+                ]
+            }
+        },
+        {
+            id: 13,
+            name: 'Union Bank Executives Staff Hostel Block',
+            details: {
+                projectPromoters: 'Union Bank of India',
+                status: 'Completed',
+                location: 'Bangalore',
+                superBuiltUpArea: '-',
+                images: [
+                    {
+                        name: 'Union Bank Executives Staff Hostel Block',
+                        url: '/images/Institutions/UnionBankExecutivesStaffHostelBlock/1.jpg'                
+                    },
+                    {
+                        name: 'Union Bank Executives Staff Hostel Block',
+                        url: '/images/Institutions/UnionBankExecutivesStaffHostelBlock/2.jpg'                
+                    },
+                    {
+                        name: 'Union Bank Executives Staff Hostel Block',
+                        url: '/images/Institutions/UnionBankExecutivesStaffHostelBlock/3.jpg'                
+                    },
+                    {
+                        name: 'Union Bank Executives Staff Hostel Block',
+                        url: '/images/Institutions/UnionBankExecutivesStaffHostelBlock/4.jpg'                
+                    },
+                    {
+                        name: 'Union Bank Executives Staff Hostel Block',
+                        url: '/images/Institutions/UnionBankExecutivesStaffHostelBlock/5.jpg'                
+                    },
+                ]
+            }
+        }
     ],
     'Hospitals': [
         {
@@ -134,7 +379,155 @@ const projects = {
                 ]
             },
             
-        }
+        },
+        {
+            id: 14,
+            name: 'Sri Jayadeva Institute of Cardio Vascukar Science and Research',
+            details: {
+                projectPromoters: 'Sri Jayadeva Hospital',
+                status: 'Proposed',
+                location: 'Mysore, Karnataka',
+                images: [
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/1.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/2.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/3.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/4.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/5.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/6.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/7.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/8.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/9.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/10.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/11.jpg'
+                    },
+                    {
+                        name: 'Sri Jayadeva Hospital',
+                        url: '/images/Hospitals/SriJayadevaInstitute/12.jpg'
+                    },
+                ]
+            }
+        },
+        {
+            id: 15,
+            name: 'Neha Prakash Hospital',
+            details: {
+                projectPromoters: 'Neha Prakash Hospital',
+                status: 'Completed',
+                location: 'Newtown, Bangalore, Karnataka',
+                images: [
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NehaPrakash/1.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NehaPrakash/2.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NehaPrakash/3.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NehaPrakash/4.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NehaPrakash/5.jpg'
+                    },
+                ]
+            }
+        },
+        {
+            id: 16,
+            name: 'Kempegowda Institute of Medical Sciences (KIMS), Bangalore',
+            details: {
+                projectPromoters: 'KIMS',
+                status: 'Completed',
+                location: 'Bangalore',
+                images: [
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/KIMS/1.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/KIMS/2.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/KIMS/3.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/KIMS/4.jpg'
+                    },
+                ]
+            }
+        },
+        {
+            id: 17,
+            name: 'NDRK Multi Specialty Hospital ',
+            details: {
+                projectPromoters: 'Mallige Medical Center',
+                status: 'Completed',
+                location: 'Hassan, Karnataka',
+                images: [
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NDRK/1.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NDRK/2.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NDRK/3.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NDRK/4.jpg'
+                    },
+                    {
+                        name: 'Neha Prakash Hospital',
+                        url: '/images/Hospitals/NDRK/5.jpg'
+                    },
+                ]
+            }
+        },
     ],
     'Apartments': [
         {
@@ -150,9 +543,216 @@ const projects = {
                         name: 'Suvarna Apartments',
                         url: '/images/Apartments/SuvarnaApartments/1.jpg'
                     },
+                    {
+                        name: 'Suvarna Apartments',
+                        url: '/images/Apartments/SuvarnaApartments/2.jpg'
+                    },
+                    {
+                        name: 'Suvarna Apartments',
+                        url: '/images/Apartments/SuvarnaApartments/3.jpg'
+                    },
+                    {
+                        name: 'Suvarna Apartments',
+                        url: '/images/Apartments/SuvarnaApartments/4.jpg'
+                    },
+                    {
+                        name: 'Suvarna Apartments',
+                        url: '/images/Apartments/SuvarnaApartments/5.jpg'
+                    },
+                    {
+                        name: 'Proposed Conceptual Section',
+                        url: '/images/Apartments/SuvarnaApartments/6.jpg'
+                    },
+                    {
+                        name: 'Existing Special Arrangement',
+                        url: '/images/Apartments/SuvarnaApartments/7.jpg'
+                    },
                 ]
             },
-            
+        },
+        {
+            id: 18,
+            name: 'Darul-Haumd Apartments',
+            details: {
+                projectPromoters: "EMDEE Group",
+                status: 'Completed',
+                location: "Wellington Street, Richmond Town, Bangalore",
+                superBuiltUpArea: '35,000 SFT',
+                images: [
+                    {
+                        name: 'Darul-Haumd Apartments',
+                        url: '/images/Apartments/Darul-Haumd/1.jpg'
+                    },
+                    {
+                        name: 'Darul-Haumd Apartments',
+                        url: '/images/Apartments/Darul-Haumd/2.jpg'
+                    },
+                    {
+                        name: 'Darul-Haumd Apartments',
+                        url: '/images/Apartments/Darul-Haumd/3.jpg'
+                    },
+                    {
+                        name: 'Darul-Haumd Apartments',
+                        url: '/images/Apartments/Darul-Haumd/4.jpg'
+                    },
+                    {
+                        name: 'Darul-Haumd Apartments',
+                        url: '/images/Apartments/Darul-Haumd/5.jpg'
+                    },
+                    {
+                        name: 'Darul-Haumd Apartments',
+                        url: '/images/Apartments/Darul-Haumd/6.jpg'
+                    },
+                ]
+            },
+        },
+        {
+            id: 19,
+            name: 'Zubeda Residency',
+            details: {
+                projectPromoters: "EMDEE Group",
+                status: 'Completed',
+                location: "Laurel Lane, Bangalore",
+                superBuiltUpArea: '-',
+                images: [
+                    {
+                        name: 'Zubeda Residency',
+                        url: '/images/Apartments/ZubedaResidency/1.jpg'
+                    },
+                    {
+                        name: 'Zubeda Residency',
+                        url: '/images/Apartments/ZubedaResidency/2.jpg'
+                    },
+                    {
+                        name: 'Zubeda Residency',
+                        url: '/images/Apartments/ZubedaResidency/3.jpg'
+                    },
+                    {
+                        name: 'Zubeda Residency',
+                        url: '/images/Apartments/ZubedaResidency/4.jpg'
+                    },
+                ]
+            },
+        },
+        {
+            id: 20,
+            name: 'JP Nagar Apartments',
+            details: {
+                projectPromoters: "Mr. Narasimha Murthy",
+                status: 'Completed',
+                location: "JP Nagar, Bangalore",
+                superBuiltUpArea: '25,000 SFT',
+                images: [
+                    {
+                        name: 'JP Nagar Apartments',
+                        url: '/images/Apartments/JPNagar/1.jpg'
+                    },
+                    {
+                        name: 'JP Nagar Apartments',
+                        url: '/images/Apartments/JPNagar/2.jpg'
+                    },
+                    {
+                        name: 'JP Nagar Apartments',
+                        url: '/images/Apartments/JPNagar/3.jpg'
+                    },
+                ]
+            },
+        },
+        {
+            id: 21,
+            name: 'Surya Chandra Enclave',
+            details: {
+                projectPromoters: "KCN Mohan",
+                status: 'Completed',
+                location: "Judicial Layout, Bangalore",
+                superBuiltUpArea: '55,000 SFT',
+                images: [
+                    {
+                        name: 'Surya Chandra Enclave',
+                        url: '/images/Apartments/SuryaChandraEnclave/1.jpg'
+                    },
+                    {
+                        name: 'Surya Chandra Enclave',
+                        url: '/images/Apartments/SuryaChandraEnclave/2.jpg'
+                    },
+                    {
+                        name: 'Surya Chandra Enclave',
+                        url: '/images/Apartments/SuryaChandraEnclave/3.jpg'
+                    },
+                ]
+            },
+        },
+        {
+            id: 22,
+            name: 'Chourasia Manor Phase-2',
+            details: {
+                projectPromoters: "VKC Developers Pvt. Ltd.",
+                status: 'On Going',
+                location: "Panathur, Bangalore",
+                superBuiltUpArea: '3,00,000 SFT',
+                images: [
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/1.jpg'
+                    },
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/2.jpg'
+                    },
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/3.jpg'
+                    },
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/4.jpg'
+                    },
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/5.jpg'
+                    },
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/6.jpg'
+                    },
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/7.jpg'
+                    },
+                    {
+                        name: 'Chourasia Manor Phase-2',
+                        url: '/images/Apartments/ChourasiaManor/8.jpg'
+                    },
+                ]
+            },
+        },
+        {
+            id: 23,
+            name: 'E-Spring Serenity Hennur',
+            details: {
+                projectPromoters: "E-Spring Building Systems (India) Private Limited",
+                status: 'Completed',
+                location: "Hennur Road, Opposite D'Mart, Bangalore, Karnataka",
+                superBuiltUpArea: '85,000 SFT',
+                images: [
+                    {
+                        name: 'E-Spring Serenity',
+                        url: '/images/Apartments/E-Spring/1.jpg'
+                    },
+                    {
+                        name: 'E-Spring Serenity',
+                        url: '/images/Apartments/E-Spring/2.jpg'
+                    },
+                    {
+                        name: 'E-Spring Serenity',
+                        url: '/images/Apartments/E-Spring/3.jpg'
+                    },
+                    {
+                        name: 'E-Spring Serenity',
+                        url: '/images/Apartments/E-Spring/4.jpg'
+                    },
+                ]
+            },
         },
     ],
     'Sports Facilities': [
@@ -224,7 +824,7 @@ const projects = {
                 images: [
                     {
                         name: 'Trial test',
-                        url: '/images/Institutions/IIIT-D/1.jpg'
+                        url: '/images/Institutions/IIIT-D/2.jpg'
                     },
                 ]
             },
@@ -243,7 +843,7 @@ const projects = {
                 images: [
                     {
                         name: 'Trial test',
-                        url: '/images/Institutions/IIIT-D/1.jpg'
+                        url: '/images/Institutions/IIIT-D/3.jpg'
                     },
                 ]
             },
@@ -251,118 +851,5 @@ const projects = {
         }
     ]
 }
-
-// const projects = [
-//     {
-//         name: "Project Construction 1",
-//         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//         meta: {},
-//         category: "Construction",
-//         images: [
-//             {
-//                 id: uuid(),
-//                 featured: true,
-//                 url: '/images/construction1.jpg'
-//             },
-//             {
-//                 id: uuid(),
-//                 featured: false,
-//                 url: '/images/2.jpg'
-//             }
-//         ]
-//     },
-//     {
-//         name: "Interior Project 2",
-//         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//         meta: {},
-//         category: "Interior",
-//         images: [
-//             {
-//                 id: uuid(),
-//                 featured: true,
-//                 url: '/images/interior1.jpg'
-//             },
-//             {
-//                 id: uuid(),
-//                 featured: false,
-//                 url: '/images/2.jpg'
-//             }
-//         ]
-//     },
-//     {
-//         name: "Designing Project 3",
-//         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//         meta: {},
-//         category: "Design",
-//         images: [
-//             {
-//                 id: uuid(),
-//                 featured: true,
-//                 url: '/images/design1.jpg'
-//             },
-//             {
-//                 id: uuid(),
-//                 featured: false,
-//                 url: '/images/2.jpg'
-//             }
-//         ]
-//     },
-//     {
-//         name: "Modeling Project 4",
-//         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//         meta: {},
-//         category: "Model",
-//         images: [
-//             {
-//                 id: uuid(),
-//                 featured: true,
-//                 url: '/images/model1.jpg'
-//             },
-//             {
-//                 id: uuid(),
-//                 featured: false,
-//                 url: '/images/2.jpg'
-//             }
-//         ]
-//     },
-//     {
-//         name: "Modeling Project 4",
-//         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//         meta: {},
-//         category: "Model",
-//         images: [
-//             {
-//                 id: uuid(),
-//                 featured: true,
-//                 url: '/images/model2.jpg'
-//             },
-//             {
-//                 id: uuid(),
-//                 featured: false,
-//                 url: '/images/2.jpg'
-//             }
-//         ]
-//     },
-//     {
-//         name: "Modeling Project 4",
-//         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//         meta: {},
-//         category: "Design",
-//         images: [
-//             {
-//                 id: uuid(),
-//                 featured: true,
-//                 url: '/images/design2.jpg'
-
-
-//             },
-//             {
-//                 id: uuid(),
-//                 featured: false,
-//                 url: '/images/2.jpg'
-//             }
-//         ]
-//     }
-// ]
 
 export default projects;
