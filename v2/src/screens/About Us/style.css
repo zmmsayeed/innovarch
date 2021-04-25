@@ -1,17 +1,44 @@
 .sectionHeading {
-    width: 50px;
-    height: 2px;
-    background-color: #EEC40E;
-    margin-bottom: 2%;
+  width: 50px;
+  height: 2px;
+  background-color: #eec40e;
+  margin-bottom: 2%;
 }
 
-#aboutSection h2, h3 {
-    font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Raleway', sans-serif; */
+#aboutSection h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 #aboutSection p {
-    font-size: 1.1rem;
-    letter-spacing: 0.3px;
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+}
+
+.about-container {
+  position: relative;
+}
+
+.heading-box {
+  width: 100%;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  opacity: 0.2;
+  text-align: right;
+}
+
+.about-overlay {
+  z-index: 9;
+}
+
+.about-secton-heading {
+    font-family: "Open Sans", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    color: #eec40e;
+    font-size: 10em;
+    font-weight: 800;
 }
